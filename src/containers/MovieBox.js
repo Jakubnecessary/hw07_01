@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import MovieList from "../components/MovieList.js";
+import MovieList from "./Users/user/Desktop/codeclan_work/week_07/day_1/homework/4_hw_multiple_components_imdb/films/src/components/MovieList";
 
 const MovieBox = () => {
 
@@ -35,7 +35,7 @@ const [movies, setMovies] = useState(
 
 return (
     <>
-        <h1>Movies</h1>
+        <h1>Upcoming Film Releases for UK</h1>
         <MovieList movies={movies} />
     </>
 );
